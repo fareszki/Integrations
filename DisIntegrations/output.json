@@ -1,0 +1,18 @@
+{
+  "output_variables": {
+    "message": {
+      "id": "message",
+      "variable_name": "message",
+      "display_name": "Message",
+      "description": "The Discord message object that was created.",
+      "value": null,
+      "type": "dict",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.DS_Store
+.claude/
+DisIntegrations/.env
+
+# Provided reference material — not part of the DisIntegrations deliverable
+/0d231e92-d099-4057-b2c1-13f55622721a/
+/Integration_Instructions/

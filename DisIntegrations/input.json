@@ -1,0 +1,33 @@
+{
+  "input_variables": {
+    "channel_id": {
+      "id": "channel_id",
+      "variable_name": "channel_id",
+      "display_name": "Channel ID",
+      "description": "The Discord channel to post the message in.",
+      "value": null,
+      "type": "str",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    },
+    "content": {
+      "id": "content",
+      "variable_name": "content",
+      "display_name": "Message",
+      "description": "The text to send.",
+      "value": null,
+      "type": "str",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    }
+  },
+  "config_variables": {}
+}
