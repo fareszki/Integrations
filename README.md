@@ -6,11 +6,11 @@ A platform integration action that posts a message to a Discord channel via the 
 
 | File | Purpose |
 | --- | --- |
-| `DisIntegrations/disArbCode.py` | The action code the platform executes |
-| `DisIntegrations/input.json` | Input variable schema (`channel_id`, `content`) |
-| `DisIntegrations/output.json` | Output variable schema (`message`) |
-| `DisIntegrations/test.py` | Local test harness |
-| `DisIntegrations/.env.example` | Template for local credentials |
+| `Discord_Integration/disArbCode.py` | The action code the platform executes |
+| `Discord_Integration/input.json` | Input variable schema (`channel_id`, `content`) |
+| `Discord_Integration/output.json` | Output variable schema (`message`) |
+| `Discord_Integration/test.py` | Local test harness |
+| `Discord_Integration/.env.example` | Template for local credentials |
 
 ## How it works
 
@@ -24,7 +24,7 @@ The credential is a bot token (`bot_token`), sent as an `Authorization: Bot <tok
 ## Running it locally
 
 ```bash
-cd DisIntegrations
+cd Discord_Integration
 cp .env.example .env      # add your DISCORD_BOT_TOKEN and DISCORD_CHANNEL_ID
 pip install requests
 python test.py
